@@ -1,5 +1,5 @@
 # Document-Level Relation Extraction with Sentences Importance Estimation and Focusing
-PyTorch implementation for NAACL 2022 Main Conference paper: [Document-Level Relation Extraction with Sentences Importance Estimation and Focusing]
+PyTorch implementation for NAACL 2022 Main Conference paper: [Document-Level Relation Extraction with Sentences Importance Estimation and Focusing](https://arxiv.org/abs/2204.12679).
 
 > Document-level relation extraction (DocRE) aims to determine the relation between two entities from a document of multiple sentences.
 Recent studies typically represent the entire document by sequence- or graph-based models to predict the relations of all entity pairs. However, we find that such a model is not robust and exhibits bizarre behaviors: it predicts correctly when an entire test document is fed as input, but errs when non-evidence sentences are removed. To this end, we propose a Sentence Importance Estimation and Focusing (SIEF) framework for DocRE, where we design a sentence importance score and a sentence focusing loss, encouraging DocRE models to focus on evidence sentences. Experimental results on two domains show that our SIEF not only improves overall performance, but also makes DocRE models more robust. Moreover, SIEF is a general framework, shown to be effective when combined with a variety of base DocRE models.
